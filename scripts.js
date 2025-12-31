@@ -63,7 +63,7 @@ function playAudio(audioid) {
 //     label.innerHTML = targetTime - formattedTime
 // }, 1000);
 
-var countDownDate = new Date("Dec 31, 2025, 23:35:00").getTime();
+var countDownDate = new Date("Jan 1, 2026, 00:00:00").getTime();
 
 let nystate = false
 let btnstate = "noJumpscare"
@@ -121,6 +121,7 @@ var x = setInterval(function() {
 
   }
 }, 1000);
+
 
 
 
